@@ -21,6 +21,8 @@ body {
     background-position: center;
     background-size: cover;
     position: fixed;
+    display: flex;
+    
 }
 
 .mainText {
@@ -32,6 +34,8 @@ body {
     margin-top: 37vh;
     color: white;
     font: 25px 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
@@ -43,11 +47,15 @@ h1 {
 #text-3 {
     padding: 10px;
 }
-.btn{
-    position: relative;
-    bottom: -44.5vh;
+
+.btn {
+    display:inline-block;
     text-align: center;
 }
-.fa-chevron-circle-down{
+
+.fa-chevron-circle-down {
     color: white;
+    display:inline-block;
+    vertical-align: bottom;
+    width: 50%;
 }
