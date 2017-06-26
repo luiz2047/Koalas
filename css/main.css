@@ -1,9 +1,40 @@
-body{
-    margin: 0;
+@font-face { 
+font-family: 'Intro'; 
+src: local('Intro'), url('intro.woff2') format('woff2'), url('intro.woff') format('woff'), url('intro.ttf') format('truetype'); 
+font-weight: 400; 
+font-style: normal; 
 }
-html{
+html, body{
 	margin: 0;
 	padding: 0;
 	font: 18px sans-serif;
+    height: 100%;
+    width: 100%;
 }
+.slide-1{
+    min-width: 100%;
+    min-height: 100%;
+    background-image: url(/img/First-slide.jpg);
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+}
+.mainText{
+    text-transform: uppercase;
+    height: 10vh;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 37vh;
+    color: white;
+    font:  25px 'Roboto', sans-serif; 
+}
+h1{
+    margin: 10px;
+    font: 500 'Intro', sans;
+    font-size: 3.8em;
+}
+#text-1, #text-3{
+    padding: 10px;
 
+}
