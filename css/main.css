@@ -17,7 +17,7 @@ body {
 .slide-1 {
     min-width: 100%;
     min-height: 100%;
-    background-image: url(/img/First-slide.jpg);
+    background-image: url(http://214426.selcdn.ru/Koalas/First-slide.jpg);
     background-position: center;
     background-size: cover;
     position: fixed;
