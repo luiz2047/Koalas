@@ -43,3 +43,11 @@ h1 {
 #text-3 {
     padding: 10px;
 }
+.btn{
+    position: relative;
+    bottom: -44.5vh;
+    text-align: center;
+}
+.fa-chevron-circle-down{
+    color: white;
+}
