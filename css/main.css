@@ -3,3 +3,7 @@ body {
 	margin: 0;
 	font: 18px sans-serif;
 }
+#pod-header{
+	list-style: none;
+	text-transform: capitalize;
+}
