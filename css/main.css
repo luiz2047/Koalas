@@ -17,7 +17,7 @@ body {
 .slide-1 {
 	min-width: 100%;
 	min-height: 100%;
-	background: url(http://214426.selcdn.ru/Koalas/First-slide.jpg) fixed center;
+	background: url(http://214426.selcdn.ru/Koalas/First-slide.jpg) center;
 	background-size: cover;
 	position: fixed;
 }
@@ -41,4 +41,14 @@ h1 {
 #text-1,
 #text-3 {
 	padding: 10px;
+}
+
+.btn {
+	position: relative;
+	bottom: -44.5vh;
+	text-align: center;
+}
+
+.fa-chevron-circle-down {
+	color: white;
 }
