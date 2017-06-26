@@ -49,13 +49,13 @@ h1 {
 }
 
 .btn {
-    display:inline-block;
-    text-align: center;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    margin-left: -53.5px;
+    
 }
 
 .fa-chevron-circle-down {
     color: white;
-    display:inline-block;
-    vertical-align: bottom;
-    width: 50%;
 }
