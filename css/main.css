@@ -63,7 +63,6 @@ h1 {
 
 .slide-2 {
 	background: #f6f6f6;
-	height: 1080px;
 }
 
 .header {
@@ -107,17 +106,83 @@ h1 {
 	display: flex;
 	width: 100%;
 	justify-content: center;
-	margin: 8% 0 0 0;
+	margin: 6% 0 0 0;
 	align-items: baseline;
 }
 
-.about-txt p {
+#abt {
 	margin: 0 15% 0 0;
 	font: 1.3em Roboto;
 	text-transform: uppercase;
-	border-bottom: 3px solid #20bbc1
+	border-bottom: 3px solid #20bbc1;
+}
+
+.texteritos {
+	margin-bottom: 5%;
+}
+
+.texteritos.first {
+	font: 500 1.4em Roboto, sans-serif;
+}
+
+.texteritos.second,
+.texteritos.third,
+.texteritos.fouth {
+	font: 300 1.2em Roboto, sans-serif
 }
 
 .about-txt .text {
 	width: 50%;
+}
+
+
+/* Works*/
+
+.our-works {
+	width: 100%;
+	margin: 5% 0 0 0
+}
+
+.our-works .blocks {
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: baseline;
+	margin: 0 10% 0 10%
+}
+
+.our-works a {
+	text-decoration: none;
+	color: black;
+}
+
+.wks-head {
+	display: inline-block;
+	margin-left: 42.5%;
+}
+
+.our-works p {
+	font: 2em Roboto;
+	text-transform: uppercase;
+	border-bottom: 3px solid #20bbc1;
+	margin: 0 0 25% 0;
+}
+
+.bttns {
+	width: 300px;
+	height: 300px;
+	display: inline-block;
+	text-align: center;
+	background: rgba(254, 217, 15, 0.56);
+	margin: 0 5% 0 5%;
+}
+
+.blocks.one {
+	margin-bottom: 1.25%
+}
+
+.blocks.two {
+	margin-top: 1.25%;
+	margin-bottom: 2%;
 }
