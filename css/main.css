@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face {
 	font-family: 'Intro';
 	src: local('Intro'), url('intro.woff2') format('woff2'), url('/font/intro.woff') format('woff'), url('/font/intro.ttf') format('truetype');
@@ -6,10 +7,14 @@
 }
 
 html,
+=======
+<<<<<<< HEAD
+>>>>>>> master
 body {
 	margin: 0;
 	padding: 0;
 	font: 18px sans-serif;
+<<<<<<< HEAD
 	height: 100%;
 	width: 100%;
 	background: #f6f6f6
@@ -41,10 +46,57 @@ body {
 h1 {
 	margin: 10px;
 	font: 3.8em 'Intro', sans-serif;
+=======
+=======
+@font-face {
+    font-family: 'Intro';
+    src: local('Intro'), url('intro.woff2') format('woff2'), url('/font/intro.woff') format('woff'), url('/font/intro.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font: 18px sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+.slide-1 {
+    min-width: 100%;
+    min-height: 100%;
+    background-image: url(http://214426.selcdn.ru/Koalas/First-slide.jpg);
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    display: flex;
+    
+}
+
+.mainText {
+    text-transform: uppercase;
+    height: 10vh;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 37vh;
+    color: white;
+    font: 25px 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin: 10px;
+    font: 3.8em 'Intro', sans-serif;
+>>>>>>> master
 }
 
 #text-1,
 #text-3 {
+<<<<<<< HEAD
 	padding: 10px;
 }
 
@@ -364,4 +416,20 @@ footer {
 	width: 100px;
 	background: #181B1E;
 	transform: rotate(45deg);
+=======
+    padding: 10px;
+}
+
+.btn {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    margin-left: -53.5px;
+    
+}
+
+.fa-chevron-circle-down {
+    color: white;
+>>>>>>> kotcha
+>>>>>>> master
 }
