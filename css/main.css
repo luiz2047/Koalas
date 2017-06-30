@@ -12,7 +12,7 @@ body {
 	font: 18px sans-serif;
 	height: 100%;
 	width: 100%;
-	background: #f6f6f6
+background: #f6f6f6;
 }
 
 .slide-1 {
@@ -334,12 +334,6 @@ textarea {
 
 /* Footer */
 
-footer {
-	height: 150px;
-	background: #181B1E;
-	margin-top: 15%;
-}
-
 .footer {
 	position: relative;
 	width: 100%;
@@ -364,4 +358,17 @@ footer {
 	width: 100px;
 	background: #181B1E;
 	transform: rotate(45deg);
+}
+.section {
+	width: 100%;
+    height: 100%;
+}
+.slide-2, .our-works, .slide-3{
+    background-color: #f6f6f6;
+}
+#footer{
+    height: 150px !important;
+	background: #181B1E;
+    width: 100%;
+    color:white;
 }
