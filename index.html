@@ -2,125 +2,132 @@
 <html>
 
 <head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700|Roboto:100,300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
-	<link rel="shortcut icon" type="image/x-icon" href="http://214426.selcdn.ru/Koalas/Koalaz.png">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<link href="css/jquery.circliful.css" rel="stylesheet" type="text/css" />
-	<script src="js/jquery.circliful.min.js"></script>
-	<script src="js/main.js"></script>
-	<title>Koalas</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700|Roboto:100,300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="http://214426.selcdn.ru/Koalas/Koalaz.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link href="css/jquery.circliful.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery.circliful.min.js"></script>
+    <script src="js/jquery.fullpage.extensions.min.js"></script>
+    <script src="js/scrolloverflow.js"></script>
+    <script src="js/main.js"></script>
+    <title>Koalas</title>
 </head>
 
 <body>
-	<div id="Main" class="slide-1">
-		<div class="mainText">
-			<div id="text-1">hello, our agency is called</div>
-			<h1>koalas</h1>
-			<div id="text-3">creating modern and responsive landing pages</div>
-		</div>
-		<div class="btn"><i class="fa fa-chevron-circle-down fa-3x" aria-hidden="true"></i></div>
-	</div>
+    <div id="main">
+        <div id="Main" class="slide-1 section">
+            <div class="mainText">
+                <div id="text-1">hello, our agency is called</div>
+                <h1>koalas</h1>
+                <div id="text-3">creating modern and responsive landing pages</div>
+            </div>
+            <div class="btn"><i class="fa fa-chevron-circle-down fa-3x" aria-hidden="true"></i></div>
+        </div>
 
 
-	<div id="About" class="slide-2">
-		<div class="header">
-			<div id="comp-name">Koalas</div>
-			<ul>
-				<li id="first"><a href="">About</a></li>
-				<li id="second"><a href="">work</a></li>
-				<li id="third"><a href="">skills</a></li>
-				<li id="fouth"><a href="">contact</a></li>
-			</ul>
-		</div>
-		<div class="about-txt">
+        <div id="About" class="slide-2 section">
+            <div class="header">
+                <div id="comp-name">Koalas</div>
+                <ul>
+                    <li id="first"><a href="#About">About</a></li>
+                    <li id="second"><a href="#Works">Work</a></li>
+                    <li id="third"><a href="#Skills">Skills</a></li>
+                    <li id="fouth"><a href="#Feedback">contact</a></li>
+                </ul>
+            </div>
+            <div class="about-txt">
 
-			<p id="abt">About</p>
-			<div class="text">
-				<p class="texteritos first">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum voluptatibus placeat explicabo a numquam quisquam blanditiis deleniti sequi commodi vel.</p>
-				<p class="texteritos second">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, tempora dignissimos dolores nihil deserunt veniam, et explicabo debitis autem aperiam voluptates ratione quibusdam laudantium quasi quos fugit accusamus iure. Dicta.</p>
-				<p class="texteritos third">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur cumque quam expedita voluptas, asperiores facilis eum maxime obcaecati beatae velit vitae optio rerum necessitatibus, pariatur harum, dolor. Non, voluptatibus, incidunt.</p>
-				<p class="texteritos fouth">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur cumque quam expedita voluptas, asperiores facilis eum maxime obcaecati beatae velit vitae optio rerum necessitatibus, pariatur harum, dolor. Non, voluptatibus, incidunt.</p>
-			</div>
-		</div>
+                <p id="abt">About</p>
+                <div class="text">
+                    <p class="texteritos first">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum voluptatibus placeat explicabo a numquam quisquam blanditiis deleniti sequi commodi vel.</p>
+                    <p class="texteritos second">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, tempora dignissimos dolores nihil deserunt veniam, et explicabo debitis autem aperiam voluptates ratione quibusdam laudantium quasi quos fugit accusamus iure. Dicta.</p>
+                    <p class="texteritos third">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur cumque quam expedita voluptas, asperiores facilis eum maxime obcaecati beatae velit vitae optio rerum necessitatibus, pariatur harum, dolor. Non, voluptatibus, incidunt.</p>
+                    <p class="texteritos fouth">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur cumque quam expedita voluptas, asperiores facilis eum maxime obcaecati beatae velit vitae optio rerum necessitatibus, pariatur harum, dolor. Non, voluptatibus, incidunt.</p>
+                </div>
+            </div>
+        </div>
+        <div id="Works" class="our-works section">
+            <div class="wks-head">
+                <p>Our Works</p>
+            </div>
 
-		<div id="Works" class="our-works">
-			<div class="wks-head">
-				<p>Our Works</p>
-			</div>
+            <div class="main-block">
+                <div class="blocks one">
+                    <a href="" class="bttns"></a>
+                    <a href="" class="bttns"></a>
+                    <a href="" class="bttns"></a>
+                </div>
 
-			<div class="main-block">
-				<div class="blocks one">
-					<a href="" class="bttns"></a>
-					<a href="" class="bttns"></a>
-					<a href="" class="bttns"></a>
-				</div>
+                <div class="blocks two">
+                    <a href="" class="bttns"></a>
+                    <a href="" class="bttns"></a>
+                    <a href="" class="bttns"></a>
+                </div>
+            </div>
+        </div>
 
-				<div class="blocks two">
-					<a href="" class="bttns"></a>
-					<a href="" class="bttns"></a>
-					<a href="" class="bttns"></a>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div id="Skills" class="slide-3">
-		<div id="skl">Skills</div>
-		<div class="sklcr">
-			<div class="crkl">
-				<p>html</p>
-				<div id="circle1"></div>
-			</div>
-			<div class="crkl">
-				<p>css</p>
-				<div id="circle2"></div>
-			</div>
-			<div class="crkl">
-				<p>js</p>
-				<div id="circle3"></div>
-			</div>
-			<div class="crkl">
-				<p>PhotoShop</p>
-				<div id="circle4"></div>
-			</div>
-			<div class="crkl">
-				<p>WordPress</p>
-				<div id="circle5"></div>
-			</div>
-			<div class="crkl">
-				<p>Jquery</p>
-				<div id="circle6"></div>
-			</div>
-		</div>
-	</div>
-	<div id="Feedback" class="slide-4">
-		<div class="wrapper">
-			<div class="cnn">
-				<p id="Connect">Connect with us</p>
-			</div>
-			<div class="wrap">
-				<div class="blockeeer">
-					<p id="name">Name</p><input id="nme" type="text" value="" name="name" tabindex="1" size="80%" height="5%" placeholder="Enter your name so that we know how to address you" autocomplete required>
-					<p id="email">Email</p><input id="emm" type="email" value="" name="email" tabindex="2" size="80%" placeholder="Enter your email address so we can contact you" autocomplete required>
-					<p id="messg">Message</p><textarea type="text" id="mesgg" value="" name="messg" tabindex="3" width="80%" required spellcheck placeholder="Write us a message and we will respond to it as soon as possible"></textarea>
-					<a id="sendius" href="">Send</a>
-				</div>
-			</div>
-
-		</div>
-		<footer>
-			<div class="footer">
-				<div class="wrap">
-					<div id="wrapperinyos"></div>
-					<i class="fa fa-angle-up" aria-hidden="true"></i>
-				</div>
-			</div>
-		</footer>
-	</div>
+        <div id="Skills" class="slide-3 section">
+            <div id="skl">Skills</div>
+            <div class="sklcr">
+                <div class="crkl">
+                    <p>html</p>
+                    <div id="circle1"></div>
+                </div>
+                <div class="crkl">
+                    <p>css</p>
+                    <div id="circle2"></div>
+                </div>
+                <div class="crkl">
+                    <p>js</p>
+                    <div id="circle3"></div>
+                </div>
+                <div class="crkl">
+                    <p>PhotoShop</p>
+                    <div id="circle4"></div>
+                </div>
+                <div class="crkl">
+                    <p>WordPress</p>
+                    <div id="circle5"></div>
+                </div>
+                <div class="crkl">
+                    <p>Jquery</p>
+                    <div id="circle6"></div>
+                </div>
+            </div>
+        </div>
+        <div id="Feedback" class="slide-4 section">
+            <div class="section" id="footer">
+                <div class="wrapper">
+                    <div class="cnn">
+                        <p id="Connect">Connect with us</p>
+                    </div>
+                    <div class="wrap">
+                        <div class="blockeeer">
+                            <p id="name">Name</p><input id="nme" type="text" value="" name="name" tabindex="1" size="80%" height="5%" placeholder="Enter your name so that we know how to address you" autocomplete required>
+                            <p id="email">Email</p><input id="emm" type="email" value="" name="email" tabindex="2" size="80%" placeholder="Enter your email address so we can contact you" autocomplete required>
+                            <p id="messg">Message</p><textarea type="text" id="mesgg" value="" name="messg" tabindex="3" width="80%" required spellcheck placeholder="Write us a message and we will respond to it as soon as possible"></textarea>
+                            <a id="sendius" href="">Send</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="footer">
+            <div class="footer">
+                <div class="wrap">
+                    <div id="wrapperinyos"></div>
+                    <i class="fa fa-angle-up" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
 
 
+
+
+    </div>
 </body>
 
 </html>
