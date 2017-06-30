@@ -1,0 +1,70 @@
+window.onfocus = function () {
+    $(".carousel").carousel({
+        interval: 5e3
+    })
+}, window.onblur = function () {
+    $(".carousel").carousel("pause")
+}, $(document).ready(function () {
+    $("#fullpage").fullpage({
+        menu: "#menu",
+        lockAnchors: !1,
+        anchors: ["I", "Love", "You"],
+        navigation: !0,
+        navigationPosition: "right",
+        navigationTooltips: ["I", "Love", "You"],
+        showActiveTooltip: !0,
+        slidesNavigation: !0,
+        slidesNavPosition: "right",
+        css3: !0,
+        scrollingSpeed: 1e3,
+        autoScrolling: !0,
+        fitToSection: !0,
+        fitToSectionDelay: 1e3,
+        scrollBar: !1,
+        easing: "easeInOutCubic",
+        easingcss3: "ease",
+        loopBottom: !1,
+        loopTop: !1,
+        loopHorizontal: !0,
+        continuousVertical: !1,
+        continuousHorizontal: !1,
+        scrollHorizontally: !1,
+        interlockedSlides: !1,
+        dragAndMove: !1,
+        offsetSections: !1,
+        resetSliders: !1,
+        fadingEffect: !1,
+        normalScrollElements: "#element1, .element2",
+        scrollOverflow: !0,
+        scrollOverflowReset: !1,
+        scrollOverflowOptions: null,
+        touchSensitivity: 15,
+        normalScrollElementTouchThreshold: 5,
+        bigSectionsDestination: null,
+        keyboardScrolling: !0,
+        animateAnchor: !0,
+        recordHistory: !0,
+        controlArrows: !1,
+        verticalCentered: !1,
+        fixedElements: "#header, .footer",
+        responsiveWidth: 0,
+        responsiveHeight: 0,
+        responsiveSlides: !0,
+        parallax: !0,
+        parallaxOptions: {
+            type: "reveal",
+            percentage: 62,
+            property: "translate"
+        },
+        sectionSelector: ".section",
+        slideSelector: ".slide",
+        lazyLoading: !0,
+        onLeave: function (a, b, c) {},
+        afterLoad: function (a, b) {},
+        afterRender: function () {},
+        afterResize: function () {},
+        afterResponsive: function (a) {},
+        afterSlideLoad: function (a, b, c, d) {},
+        onSlideLeave: function (a, b, c, d, e) {}
+    })
+});
