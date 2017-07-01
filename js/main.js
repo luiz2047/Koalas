@@ -12,7 +12,7 @@
 
 		//Scrolling
 		css3: true,
-		scrollingSpeed: 1000,
+		scrollingSpeed: 1300,
 		autoScrolling: true,
 		fitToSection: true,
 		fitToSectionDelay: 1000,
