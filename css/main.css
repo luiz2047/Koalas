@@ -93,8 +93,8 @@ h1 {
 #text-1::selection,
 h1::selection,
 #text-3::selection {
-	background: black;
-	color: #ffffff !important
+	background: rgba(0, 0, 0, 0.76);
+	color: whtie!important
 }
 
 
